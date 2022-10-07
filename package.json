@@ -10,10 +10,6 @@
   "main": "build/cjs.js",
   "module": "build/esm.mjs",
   "types": "build/index.d.ts",
-  "files": [
-    "build/*",
-    "package.json"
-  ],
   "scripts": {
     "build": "NODE_ENV=production ts-node ./scripts/build.ts",
     "build:types": "NODE_ENV=production tsc --emitDeclarationOnly --declaration --outDir build",
